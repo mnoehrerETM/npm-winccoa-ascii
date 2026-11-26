@@ -1,6 +1,6 @@
 {
   "name": "@winccoa-tools-pack/npm-winccoa-ascii",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "WinCC OA ASCII Manager – DPL import & export wrapper",
   "author": "winccoa-tools-pack",
   "license": "MIT",
@@ -51,22 +51,25 @@
     "ci:integration": "npm ci && npm run build && npm run test:integration"
   },
   "dependencies": {
-    "@winccoa-tools-pack/npm-winccoa-core": "^0.2.6"
+    "@winccoa-tools-pack/npm-winccoa-core": "^2.0.8"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.2",
-    "@types/node": "^25.0.3",
+    "@types/node": "^26.6.6",
     "eslint": "^9.39.2",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-import": "^2.32.0",
     "globals": "^17.0.0",
-    "markdownlint": "^0.40.0",
-    "markdownlint-cli": "^0.47.0",
+    "markdownlint": "^0.42.2",
+    "markdownlint-cli": "^0.50.0",
     "prettier": "^3.0.0",
     "ts-node": "^10.9.1",
     "tsx": "^4.21.0",
-    "typescript": "^5.2.0",
+    "typescript": "^6.0.3",
     "typescript-eslint": "^8.51.0"
+  },
+  "overrides": {
+    "katex": "^0.18.2"
   },
   "config": {
     "winccoaImage": "mpokornyetm/winccoa-tools-pack-npm-winccoa-core:npm-winccoa-core"
