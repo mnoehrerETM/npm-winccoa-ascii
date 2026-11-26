@@ -1,6 +1,6 @@
 {
   "name": "@winccoa-tools-pack/npm-winccoa-ascii",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "WinCC OA ASCII Manager – DPL import & export wrapper",
   "author": "winccoa-tools-pack",
   "license": "MIT",
